@@ -23,6 +23,12 @@ img {
 header {
    padding: 20px;
    border: 1px solid black;
+
+   h1   {
+font-size: 2em;
+margin-bottom: 20px;
+font-family: helvetica;
+   }
 }
 nav a {
     margin-left: 20px;
