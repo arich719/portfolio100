@@ -3,14 +3,18 @@ body{
     background-color: rgb(243, 240, 237);
     margin: 10px;
     padding: 10px;
-    font-family: "Times New Roman", Times, serif;
     font-size: 1.25rem;
     font-weight: 400;
     font-style: normal;
     
 }
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+    font-style: normal; 
+}
 img {
-    width: 40%;
+    width: 60%;
     height: auto;
     border-radius: 95%;
   }
@@ -24,11 +28,7 @@ header {
    padding: 20px;
    border: 1px solid black;
 
-   h1   {
-font-size: 2em;
-margin-bottom: 20px;
-font-family: helvetica;
-   }
+  
 }
 nav a {
     margin-left: 20px;
@@ -42,10 +42,23 @@ nav {
 }
 
 section {
-    padding:  20px;
-    border: 1px;
+    padding:  100px;
+    border: 10px;
+    margin: 0%;
     }
-
+   
+    
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  
+    section {
+      border: 10px solid black; 
+      padding: 100px; 
+    }
 
 
 
