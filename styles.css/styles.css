@@ -8,11 +8,13 @@ body{
   font-style: normal;
   
 }
-.space-mono-regular {
-  font-family: "Space Mono", monospace;
-  font-weight: 200;
-  font-style: normal; 
+.rethink-sans-<uniquifier> {
+  font-family: "Rethink Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
 img {
   width: 60%;
   height: auto;
@@ -70,10 +72,6 @@ section {
     opacity: 0.5;
   }
 
-nav:hover{
-  color: rgb(190, 22, 42);
- 
-}
 a{
   text-decoration: none;
 }
