@@ -8,11 +8,11 @@ body{
   font-style: normal;
   
 }
-.rethink-sans-<uniquifier> {
-  font-family: "Rethink Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
   font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 img {
@@ -36,8 +36,8 @@ nav a {
   margin-left: 20px;
 }
 nav {
-  border: 1px 
-  padding: 10px;
+  border: 1px;
+  ;padding: 10px;
   text-align: right;
   position: sticky;
   top: 0px;
@@ -46,7 +46,7 @@ nav {
 section {
   padding:  100px;
   margin: 0%;
-  width: 50;
+  width: 50px;
   padding: 100px;
   border: 10px solid black; 
   }
